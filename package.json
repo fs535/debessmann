@@ -28,5 +28,6 @@
     "type": "git",
     "url": "https://github.com/fs535/debessmann.git"
   },
+  "typings": "index.d.ts",
   "version": "0.1.0"
 }

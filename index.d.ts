@@ -1,11 +1,6 @@
 export class EventId {
     time: Date;
     seq: number;
-
-    constructor(t: Date, seq: number) {
-        this.time = t;
-        this.seq = seq;
-    }
 }
 
 export class Event {
@@ -15,10 +10,6 @@ export class Event {
     payload: any;
     headers: { [key:string]:string; };
     metrics: { [key:string]:number };
-
-    constructor(id:EventId) {
-        this._id = id;
-    }
 }
 
 export class DM {

@@ -14,7 +14,7 @@
     "node": ">= 0.4.0"
   },
   "homepage": "https://github.com/fs535/debessmann#readme",
-  "main": "dm.js",
+  "main": "",
   "maintainers": [
     {
       "name": "fs",

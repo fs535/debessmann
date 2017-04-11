@@ -1,5 +1,6 @@
 # DEBESSMANN SDK
 Debessmann is a cloud-enabled, mobile-ready event based analytics system.
+https://sites.google.com/ideaportriga.lv/debessmann-dev
 
 This SDK is designed to be run in the browser (similar was as Google Analytics is)
 to send events from web/mobile applications to https://ep.debessmann.com (Event Processor)

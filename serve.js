@@ -1,8 +1,7 @@
 var connect = require('connect'),
-    directory = '/js';
+    serveStatic = require('serve-static');
 
-connect()
-    .use(connect.static(directory))
-    .listen(80);
+var app = connect();
 
-console.log('Listening on port 80.');
+app.use(serveStatic("/js"));
+app.listen(80);

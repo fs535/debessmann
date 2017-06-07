@@ -14,7 +14,7 @@ export class Event {
 
 export class DM {
     init(endpoint:string, authkey:string): void ;
-    send(data:Event): void ;
+    send(data:Event, success:Function = null, error:Function = null): void ;
 }
 
 declare global {

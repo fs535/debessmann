@@ -5,7 +5,7 @@ https://sites.google.com/ideaportriga.lv/debessmann-dev
 This SDK is designed to be run in the browser (similar was as Google Analytics is)
 to send events from web/mobile applications to https://ep.debessmann.com (Event Processor)
 Later you can view advanced statistics using Monitoring Console: https://mc.debessmann.com
-# Version 1.0
+# Version 0.1.0
   - Adding typescript support.
 
 ### Installation
